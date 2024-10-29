@@ -8,6 +8,9 @@ app.get('/', function (req, res) {
 app.get('/will', function (req, res) {
     res.send('{ "response": "Hello World" }');
 });
+app.get('/BallonDor', function (req, res) {
+    res.send('{ "response": "Vinicius Robbed Haha" }');
+});
 app.get('/ready', function (req, res) {
     res.send('{ "response": " Great!, It works!" }');
 });
